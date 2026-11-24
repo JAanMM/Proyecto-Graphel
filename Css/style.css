@@ -1,0 +1,282 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.boton_1 {
+  height: 36px;
+  background-color: #e8491d;
+  border: none;
+  padding: 0 20px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.boton_1:hover {
+  background-color: #cf3d14;
+}
+
+.oscuro {
+  padding: 18px;
+  background-color: #35424a;
+  color: #ffffff;
+  margin: 15px 0;
+}
+
+.oscuro h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: #24282b;
+  color: #ffffff;
+  padding: 18px 0;
+  border-bottom: #1293d4 4px solid;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #marca h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+header .resaltado,
+header .actual a {
+  color: #1293d4;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 28px;
+}
+
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #1293d4;
+}
+
+#cabecera {
+  min-height: 420px;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/cabecera.jpg) no-repeat center center / cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 90px 0 60px;
+  box-sizing: border-box;
+}
+
+#cabecera h1 {
+  margin: 0 0 15px;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+#cabecera p {
+  margin: 0 auto;
+  max-width: 780px;
+  font-size: 18px;
+  color: #f0f0f0;
+}
+
+#boletin {
+  background-color: #24282b;
+  color: #ffffff;
+  padding: 18px 0;
+}
+
+#boletin .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#boletin h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#boletin form {
+  display: flex;
+  align-items: center;
+}
+
+#boletin input[type="email"] {
+  height: 36px;
+  width: 260px;
+  padding: 0 10px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#cajas {
+  padding: 35px 0;
+  background-color: #ffffff;
+}
+
+#cajas .contenedor {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+#cajas .caja {
+  flex: 1;
+  text-align: center;
+}
+
+#cajas .caja img {
+  width: 95px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#cajas .caja h3 {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+#cajas .caja p {
+  margin: 0;
+  font-size: 14px;
+  color: #555555;
+}
+
+#principal {
+  padding: 25px 0 40px;
+  background-color: #ffffff;
+}
+
+#principal .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+#columna-principal {
+  width: 65%;
+}
+
+.titulo-pagina {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#lateral {
+  width: 32%;
+}
+
+.imagen-nosotros {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#lista-servicios {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#lista-servicios li {
+  background-color: #e6e6e6;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  margin-bottom: 12px;
+}
+
+#lista-servicios h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#lista-servicios p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.formulario-contacto div {
+  margin-bottom: 12px;
+}
+
+.formulario-contacto label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.formulario-contacto input[type="text"],
+.formulario-contacto input[type="email"],
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.boton_enviar {
+  width: 100%;
+  height: 40px;
+  background-color: #e8491d;
+  color: #ffffff;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.boton_enviar:hover {
+  background-color: #cf3d14;
+}
+
+.mapa {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+footer {
+  background-color: #1293d4;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
